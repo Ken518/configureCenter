@@ -2,15 +2,21 @@ server:
   port: 12011
 spring:
   profiles: dev
+cs:
+  name: xiao-D
 
 ---
 server:
   port: 12022
 spring:
   profiles: test
+cs:
+  name: xiao-T
 
 ---
 server:
   port: 12033
 spring:
   profiles: prod
+cs:
+  name: xiao-P
