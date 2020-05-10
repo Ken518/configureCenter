@@ -1,0 +1,16 @@
+server:
+  port: 12011
+spring:
+  profiles: dev
+
+---
+server:
+  port: 12022
+spring:
+  profiles: test
+
+---
+server:
+  port: 12033
+spring:
+  profiles: prod
