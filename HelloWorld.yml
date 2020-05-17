@@ -4,6 +4,7 @@ spring:
   profiles: dev
 cs:
   name: xiao-D
+  password: dev123
 
 ---
 server:
@@ -12,6 +13,7 @@ spring:
   profiles: test
 cs:
   name: xiao-T
+  password: test123
 
 ---
 server:
@@ -20,3 +22,4 @@ spring:
   profiles: prod
 cs:
   name: xiao-P
+  password: prod123
